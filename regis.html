@@ -77,25 +77,48 @@
             <p class="rights">ConferenceWorld | All Rights Reserved | 2023.</p>
     </section>
         <script>
-    var navLinks=document.getElementById("navLinks");
-    var navdropdown=document.getElementById("dropdown1");
-    var tabslider=document.getElementById("tabslide");
-    tabslider.style.transitionDuration="0.5s";
+   var navLinks=document.getElementById("navLinks");
+    var prevdropdowntabid;
+    var prevdropdowntabsliderid;
     function showMenu(){
         navLinks.style.right="0";
     }
     function hideMenu(){
         navLinks.style.right="-250px";
     }
-    function toggle_dropdown(){
-        var navdropdown=document.getElementById("dropdown1");
-        var tabslider=document.getElementById("tabslide");
+    function toggle_dropdown(dropdownid,tabsliderid){
+        var navdropdown=document.getElementById(dropdownid);
+        var tabslider=document.getElementById(tabsliderid);
+    tabslider.style.transitionDuration="0.5s";
+    var dist="130px"
+    if(dropdownid=="dropdown2"){
+        dist="65px"
+    }
     if (navdropdown.style.display === "block") {
         navdropdown.style.display = "none";
         tabslider.style.top="0px";
-    } else { 
-        tabslider.style.top="130px";
+    } else {
+        tabslider.style.top=dist;
         navdropdown.style.display = "block";
+        if(prevdropdowntabid!=dropdownid&&prevdropdowntabid!=undefined){
+            document.getElementById(prevdropdowntabid).style.display="none";
+                document.getElementById(prevdropdowntabsliderid).style.top="0px"; 
+        }
+    }
+    prevdropdowntabid=dropdownid;
+    prevdropdowntabsliderid=tabsliderid;
+}
+window.onclick=function(event){
+    if(event.target.className!="nav-tab"){
+        navtab1=document.getElementById("dropdown1");
+        navtab2=document.getElementById("dropdown2");
+        slider1=document.getElementById("tabslide1");
+        slider2=document.getElementById("tabslide2");
+        navtab1.style.display="none";
+        navtab2.style.display="none";
+        slider1.style.top="0px";
+        slider2.style.top="0px";
+
     }
 }
 </script>
