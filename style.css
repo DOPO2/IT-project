@@ -424,3 +424,17 @@ h3{
             border:1px solid black ;
 text-align: center;
         }
+.css1{
+  background-color:rgb(86, 86, 236);
+  font-size:30px;
+  font-family: Times;
+  font-style:italic;
+  font-weight:bold;
+  color:greenyellow;
+} 
+.css1 a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+  padding-right: 30px
+}
