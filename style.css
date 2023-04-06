@@ -414,3 +414,13 @@ h3{
             padding-bottom: 20px;
             padding-top: 20px;
         }
+#table1{
+            border:2px solid black ;
+            width:800px;
+            height:400px;
+
+        }
+        #table1 td{
+            border:1px solid black ;
+text-align: center;
+        }
