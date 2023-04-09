@@ -57,14 +57,14 @@ nav img{
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align:center;
 }
 
 .text-box h1{
-    font-size: 62px;
+    font-size: 50px;
 }
 
 .text-box p{
@@ -124,6 +124,37 @@ nav .fa{
 
 }
 
+/* IMAGES of Sponsors */
+
+.spons-img{
+    display: flex;
+    width: 100%;
+    height: 17vh;
+    align-items: center;
+    margin: 20px;
+}
+.spons-img img{
+    width: auto;
+    padding: 20px;
+    height: 100%;
+}
+@media (max-width: 700px) {
+    .spons-img{
+        flex-direction: column;
+        width: 80%;
+        height: 60%;
+        position: relative;
+        align-items: center;
+        margin-left: 10%;
+    }
+    .spons-img img{
+        width: 60%;
+        height: auto;
+        padding: 5%;
+    }
+    
+}
+
 /* ------values----- */
 
 .values{
@@ -159,14 +190,29 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
 }
-.list-dates{
+.myTable { 
+    width: 100%;
     text-align: left;
-    color: #777;
-    list-style-type:square;
-    font-weight: 500;
-    line-height: 44px;
-    font-size: 14px;
-    padding: 30px;
+    background-color: lemonchiffon;
+    border-collapse: collapse; 
+    }
+  .myTable th { 
+    background-color: rgb(32, 116, 218);
+    color: white; 
+    text-align: center;
+    }
+  .myTable td, 
+  .myTable th { 
+    padding: 10px;
+    border: 1px solid rgb(32, 116, 218); 
+    }
+.dates-odd{
+    color: rgb(33, 32, 32);
+    background-color: rgb(255, 217, 194);
+}
+.dates-eve{
+    color: rgb(33, 32, 32);
+    background-color: rgb(255, 240, 226);
 }
 .val-col{
     flex-basis: 100%;
@@ -191,7 +237,6 @@ h3{
     }
     
 }
-
 
 /* ----calltoaction---- */
 
