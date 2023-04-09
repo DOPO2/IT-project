@@ -388,6 +388,9 @@ h3{
     border:1px solid #ccc;
     box-sizing: border-box;
 }
+.contact-col select{
+height: 45px;
+}
 .submissions-content{
     margin-top: 5%;
     margin-bottom: 5%;
