@@ -78,7 +78,39 @@
     </section>
 <!-- ---updated footer--- -->
     
-    <section class="contact-us">
+    <section class="reg-form">
+    <!-- <div class="val-col">
+            <p><b>Please follow following instructions for registration</b></p>
+            <p>1.Make the payment of registration fee through the link given or through the QR code provided : <a href="">Click here to pay</a><br><br> 2.Fill the form given below with appropriate details to complete the registration</p>
+            <br><br>
+             <img src="images/qrcode.png" width="200px">
+        <p>Please scan the QR code to make payment</p>
+     </div> -->
+        <h2 style="text-align: center;">Please fill the below form if you wish to sponser the Conference</h2><br><br>
+    <form id="regisform" action="https://formsubmit.co/chinmayarrao@gmail.com" method="post">
+        <input type="hidden" name="_captcha" value="false">
+         <input type="hidden" name="_next" value="https://dopo2.github.io/IT-project/regis.html">
+         <input type="hidden" name="_subject" value="Sponsers">
+         <input type="hidden" name="_template" value="table">
+         <label for="name">Company Name</label>
+         <input type="text" name="name" placeholder="Enter company name" required>
+         <label for="email">Email</label>
+         <input type="email" name="user_email" placeholder="Enter email address" required>
+         <label for="Amount Sponsering">Amount sponsering ( in Rs. )</label>
+         <input type="number" name="Amount Sponsering" placeholder="Enter the amount you want to sponser" required>
+         <label for="sponsership-plan">Select sponsership plan</label>
+         <select name="sponsership-plan" id="plan">
+             <option value="default" disabled selected>Sponsership plan</option>
+             <option value="Silver">Silver (Min Rs 1 lakh)</option>
+             <option value="Gold">Gold (Min Rs 3 lakh)</option>
+             <option value="Platinum">Platinum (Min 5 lakh)</option>
+         </select><br>
+<button type="submit" class="hero-btn1 red-btn">SUBMIT</button>
+    </form>
+    
+</section>
+    
+<!--     <section class="contact-us">
         <div class="sponser-col" >
             <h1>Please fill the below form if you wish to sponser the Conference</h1>
 <!--             <form action="form_handler.php" method="post"> -->
@@ -102,7 +134,7 @@
         </div>
 
 
-    </section>
+    </section> -->
     <section class="footer">
         <h4>About Us</h4>
             <p class="short-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
