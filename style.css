@@ -539,12 +539,6 @@ text-align: center;
 }
 
 /* REGISTRATION */
-.reg{
-    width: 90%;
-    margin: auto;
-    text-align:center;
-    padding-top:2.5%;
-}
 #sponserform *{
     height:30px;
     width: 70%;
@@ -568,4 +562,78 @@ text-align: center;
     margin-top: 50px;
     text-align: center;
     box-sizing: border-box;
+}
+.reg-form{
+    flex-basis: 100%;
+    background: #fff3f3;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+#regisform{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#regisform *{
+    height:30px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#regisform button{
+    margin-left:33%;
+    margin-right: 33%;
+width: 33%;
+}
+.hero-btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #d52f2f;
+    border: 1px solid #d52f2f;
+    /* padding: 12px 34px; */
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn1:hover{
+    border: 1px solid #1e7dca;
+    background: #1e7dca;
+    transition: 1s;
+}
+@media(max-width:700px) {
+    .reg-form{
+        width: 90%;
+    }
+    #regisform input{
+    height:30px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+#regisform select{
+    height:30px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+#regisform{
+    margin-left: 0;
+    margin-right: 0;
+}
+}
+#account-detail{
+    flex-basis: 100%;
+    background: #fff3f3;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    text-align: center;
 }
