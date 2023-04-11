@@ -82,6 +82,7 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
+    border-radius: 20%;
 }
 
 .hero-btn:hover{
@@ -124,22 +125,22 @@ nav .fa{
 
 }
 
-/* IMAGES of Sponsors */
+/* IMAGE of Springer */
 
-.spons-img{
-    display: flex;
-    width: 100%;
+.spring-img{
     height: 17vh;
-    align-items: center;
     margin: 20px;
 }
-.spons-img img{
-    width: auto;
+.spring-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     padding: 20px;
     height: 100%;
 }
 @media (max-width: 700px) {
-    .spons-img{
+    .spring-img{
         flex-direction: column;
         width: 80%;
         height: 60%;
@@ -147,7 +148,7 @@ nav .fa{
         align-items: center;
         margin-left: 10%;
     }
-    .spons-img img{
+    .spring-img img{
         width: 60%;
         height: auto;
         padding: 5%;
@@ -243,7 +244,7 @@ h3{
 .cta{
     margin:  100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/conf.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -261,6 +262,37 @@ h3{
         font-size: 21px;
         font-weight: 500;
     }
+}
+
+/* IMAGE of Sponsor */
+
+.spons-img{
+    display: flex;
+    height: 17vh;
+    align-items: center;
+    margin: 20px;
+}
+.spons-img img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+    height: 100%;
+}
+@media (max-width: 700px) {
+    .spons-img{
+        flex-direction: column;
+        width: 80%;
+        height: 60%;
+        position: relative;
+        align-items: center;
+        margin-left: 10%;
+    }
+    .spons-img img{
+        width: 60%;
+        height: auto;
+        padding: 5%;
+    }  
 }
 
 /* ----footer---- */
@@ -592,13 +624,14 @@ width: 33%;
 .hero-btn1{
     display: inline-block;
     text-decoration: none;
-    color: #d52f2f;
+    color: white;
     border: 1px solid #d52f2f;
     /* padding: 12px 34px; */
     font-size: 13px;
-    background: transparent;
+    background: #ea7c7c;
     position: relative;
     cursor: pointer;
+    border-radius: 20%;
 }
 
 .hero-btn1:hover{
