@@ -99,6 +99,32 @@
             <p class="rights">ConferenceWorld | All Rights Reserved | 2023.</p>
     </section>
     <script>
+        var navLinks=document.getElementById("navLinks");
+var navdropdown=document.getElementById("dropdown");
+var tabslider=document.getElementById("tabslide");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-250px";
+    }
+    function toggle_dropdown(){
+    tabslider.style.transitionDuration="0.5s";
+    if (navdropdown.style.display === "block") {
+        navdropdown.style.display = "none";
+        tabslider.style.top="0px";
+    } else {
+        tabslider.style.top="65px";
+        navdropdown.style.display = "block";
+    }
+}
+window.onclick=function(event){
+    if(event.target.className!="nav-tab"){
+        navdropdown.style.display="none";
+        tabslider.style.top="0px";
+    }
+}
+
     //     var navLinks=document.getElementById("navLinks");
     //     var prevdropdowntabid;
     //     var prevdropdowntabsliderid;
