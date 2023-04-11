@@ -30,26 +30,19 @@
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
+                    <!-- <li><a href="about.html">ABOUT</a></li> -->
+                    <li><a href="committe.html">COMMITTEE</a></li>
+                    <li><a href="keynote.html">KEYNOTE SPEAKERS</a></li>
                     <li class="list-dropdown">
-                        <a class="nav-tab" onclick="toggle_dropdown('dropdown1','tabslide1')">COMMITTEE</a>
-                        <div id="dropdown1">
-                            <a  href="oc.html">ORGANISING COMMITTEE</a>
-                            <a  href="nationaladvisory.html">NATIONAL ADIVISORY</a>
-                            <a  href="internationaladvisory.html">INTERNATIONAL ADIVISORY</a>
-                            <a  href="tpc.html">TECHNICAL PROGRAM COMMITTEE</a>
-                        </div>
-                    </li>
-                    <span id="tabslide1">
-                        <li class="list-dropdown">
-                            <a class="nav-tab" onclick="toggle_dropdown('dropdown2','tabslide2')">SUBMISSIONS</a>
-                            <div id="dropdown2">
+                            <a class="nav-tab" onclick="toggle_dropdown()">SUBMISSIONS</a>
+                            <div id="dropdown">
                                 <a  href="callforpapers.html">Call for papers</a>
                                 <a  href="importantdates.html">Important dates</a>
                             </div>
                         </li>
-                        <span id="tabslide2">
+                        <span id="tabslide">
                             <li><a href="publication.html">PUBLICATIONS</a></li>
+                            <li><a href="sponsers.html">SPONSERSHIP</a></li>
                         <li><a href="regis.html">REGISTRATION</a></li>
                         <li><a href="venue.html">VENUE</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
@@ -106,49 +99,49 @@
             <p class="rights">ConferenceWorld | All Rights Reserved | 2023.</p>
     </section>
     <script>
-        var navLinks=document.getElementById("navLinks");
-        var prevdropdowntabid;
-        var prevdropdowntabsliderid;
-        function showMenu(){
-            navLinks.style.right="0";
-        }
-        function hideMenu(){
-            navLinks.style.right="-250px";
-        }
-        function toggle_dropdown(dropdownid,tabsliderid){
-            var navdropdown=document.getElementById(dropdownid);
-            var tabslider=document.getElementById(tabsliderid);
-        tabslider.style.transitionDuration="0.5s";
-        var dist="130px"
-        if(dropdownid=="dropdown2"){
-            dist="65px"
-        }
-        if (navdropdown.style.display === "block") {
-            navdropdown.style.display = "none";
-            tabslider.style.top="0px";
-        } else {
-            tabslider.style.top=dist;
-            navdropdown.style.display = "block";
-            if(prevdropdowntabid!=dropdownid&&prevdropdowntabid!=undefined){
-                document.getElementById(prevdropdowntabid).style.display="none";
-                    document.getElementById(prevdropdowntabsliderid).style.top="0px"; 
-            }
-        }
-        prevdropdowntabid=dropdownid;
-        prevdropdowntabsliderid=tabsliderid;
-    }
-    window.onclick=function(event){
-        if(event.target.className!="nav-tab"){
-            navtab1=document.getElementById("dropdown1");
-            navtab2=document.getElementById("dropdown2");
-            slider1=document.getElementById("tabslide1");
-            slider2=document.getElementById("tabslide2");
-            navtab1.style.display="none";
-            navtab2.style.display="none";
-            slider1.style.top="0px";
-            slider2.style.top="0px";
+    //     var navLinks=document.getElementById("navLinks");
+    //     var prevdropdowntabid;
+    //     var prevdropdowntabsliderid;
+    //     function showMenu(){
+    //         navLinks.style.right="0";
+    //     }
+    //     function hideMenu(){
+    //         navLinks.style.right="-250px";
+    //     }
+    //     function toggle_dropdown(dropdownid,tabsliderid){
+    //         var navdropdown=document.getElementById(dropdownid);
+    //         var tabslider=document.getElementById(tabsliderid);
+    //     tabslider.style.transitionDuration="0.5s";
+    //     var dist="130px"
+    //     if(dropdownid=="dropdown2"){
+    //         dist="65px"
+    //     }
+    //     if (navdropdown.style.display === "block") {
+    //         navdropdown.style.display = "none";
+    //         tabslider.style.top="0px";
+    //     } else {
+    //         tabslider.style.top=dist;
+    //         navdropdown.style.display = "block";
+    //         if(prevdropdowntabid!=dropdownid&&prevdropdowntabid!=undefined){
+    //             document.getElementById(prevdropdowntabid).style.display="none";
+    //                 document.getElementById(prevdropdowntabsliderid).style.top="0px"; 
+    //         }
+    //     }
+    //     prevdropdowntabid=dropdownid;
+    //     prevdropdowntabsliderid=tabsliderid;
+    // }
+    // window.onclick=function(event){
+    //     if(event.target.className!="nav-tab"){
+    //         navtab1=document.getElementById("dropdown1");
+    //         navtab2=document.getElementById("dropdown2");
+    //         slider1=document.getElementById("tabslide1");
+    //         slider2=document.getElementById("tabslide2");
+    //         navtab1.style.display="none";
+    //         navtab2.style.display="none";
+    //         slider1.style.top="0px";
+    //         slider2.style.top="0px";
     
-        }
-    }
+    //     }
+    // }
     </script>
     </html>
