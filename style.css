@@ -659,6 +659,9 @@ padding: 5px;
 .reg-form:hover{
     box-shadow: 0 4px 8px 0 rgb(32, 116, 218,0.2), 0 6px 20px 0 rgb(32, 116, 218,0.29);
 }
+#sponsor1:hover{
+    box-shadow: 0 4px 8px 0 rgb(32, 116, 218,0.2), 0 6px 20px 0 rgb(32, 116, 218,0.29);
+}
 .hero-btn1:hover{
     background: #1978c6d3;
     transition: 1s;
