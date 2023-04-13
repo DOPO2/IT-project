@@ -77,77 +77,97 @@
         </nav>
     <h1>REGISTRATION FOR CONFERENCE</h1>
     </section>
-    <section id="account-detail">
-        <h2>Account details to pay Registration fees</h2>
-        <table class="myTable">
-            <tr class="dates-odd">
-                <td>Account holder name </td>
-                <td><b>Manipal Institute of Technology</b></td>
-            </tr>
-            <tr class="dates-eve">
-                <td>Account No.</td>
-                <td><b>876529842098</b></td>
-            </tr>
-            <tr class="dates-odd">
-                <td>IFSC Code</td>
-                <td><b>BDJSJ7328892332</b></td>
-            </tr>
-            <tr class="dates-eve">
-                <td>Bank Name</td>
-                <td><b>ICICI Bank</b></td>
-            </tr>
-            <tr class="dates-odd">
-                <td>Address</td>
-                <td><b>adkjasfkdjflkjasas</b></td>
-            </tr>
-            <tr class="dates-eve">
-                <td>Bank State</td>
-                <td><b>Karnataka</b></td>
-            </tr>
-            <tr class="dates-eve">
-                <td>Bank CIty</td>
-                <td><b>Manipal</b></td>
-            </tr>
-            <tr class="dates-eve">
-                <td>Country</td>
-                <td><b>India</b></td>
-            </tr>
-        </table>
-    </section>
-    <section class="reg-form">
-            <!-- <div class="val-col">
-                    <p><b>Please follow following instructions for registration</b></p>
-                    <p>1.Make the payment of registration fee through the link given or through the QR code provided : <a href="">Click here to pay</a><br><br> 2.Fill the form given below with appropriate details to complete the registration</p>
-                    <br><br>
-                     <img src="images/qrcode.png" width="200px">
-                <p>Please scan the QR code to make payment</p>
-             </div> -->
-                <h2 style="text-align: center;">FILL THE FORM TO REGISTER IN CONFERENCE</h2><br><br>
-            <form id="regisform" action="https://formsubmit.co/chinmayarrao@gmail.com" method="post" "enctype=multipart/form-data">
-                <input type="hidden" name="_captcha" value="false">
-                 <input type="hidden" name="_next" value="https://dopo2.github.io/IT-project/regis.html">
-                 <input type="hidden" name="_subject" value="Registration">
-                 <input type="hidden" name="_template" value="table">
-        <label for="name">Name :</label><br>
-        <input type="text" name="name" placeholder="Enter your name here" required><br>
-        <label for="email">Email :</label><br>
-        <input type="text" name="email" placeholder="Enter your email address here" required><br>
-        <label for="phno">Phone Number :</label><br>
-        <input type="text" name="phno" placeholder="Enter your phone number here" required><br>
-        <label for="Mode_of_attending">Enter the mode of attending conference:</label><br>
-        <select name="Mode_of_attending" id="plan" required>
-            <option value="default" disabled selected>Select the mode :</option>
-            <option value="Online">Online</option>
-            <option value="Offline">Offline</option>
-        </select><br>
-        <label for="Payment Refference">Payment reference :</label><br>
-        <input type="text" name="Payment Reference" placeholder="Enter the payment Reference id" required><br>
-        <label for="Fee_payment_slip">Upload fees payment slip(pdf/jpg/png):</label><br>
-        <input type="file" name="attachment" accept="image/png, image/jpeg" required><br>
-        <button type="submit" class="hero-btn1 red-btn">SUBMIT</button>
-            </form>
+    <div id="regcontainer" class="reg-form">
+            <h2>Instructions for payment of registration</h2>
+            <ol style="padding-left:6%;text-align: left;">
+                <li>Payment of fee must be done through online mode </li>
+                <li>At least one author of each paper must complete the registration process at non-student rate, in order to ensure inclusion of the paper in the conference proceedings.</li>
+                <li>Students must include a letter from the Head of the Institute/ Dean/ Department authenticating their full-time student status.</li>
+                <li>In case of multiple papers by an author, each additional paper would be subjected to additional registration charge at reduced rate.</li>
+                <li>In case of over length papers (exceeding the 8 page limit), each additional page (maximum of 2 pages for a paper) would be subjected to additional page charge.</li>
+            </ol>
+            <br><br>
+            <section id="fees-table" >
             
-    </section>
+                <section id="account-detail">
+                    <h2>Registration fees structure</h2><br>
+                    <table class="myTable1" style="height: 322px;">
+                        <tr class="dates-odd1">
+                            <th>Charges</th>
+                            <th><b>Amount</b></th>
+                        </tr>
+                        <tr class="dates-eve1">
+                            <td>Registration fee</td>
+                            <td>2,500</td>
+                        </tr>
+                        <tr class="dates-odd1">
+                            <td>Other1</td>
+                            <td>1,500</td>
+                        </tr>
+                        <tr class="dates-eve1">
+                            <td>Other2</td>
+                            <td>1,500</td>
+                        </tr>
+                        
+                        
+                    </table>
+                </section>
+                <section id="account-detail">
+                    <h2>Account details to pay Registration fees</h2><br>
+                    <table class="myTable1">
+                        <tr class="dates-odd1">
+                            <td>Account holder name </td>
+                            <td><b>Manipal Institute of Technology</b></td>
+                        </tr>
+                        <tr class="dates-eve1">
+                            <td>Account No.</td>
+                            <td><b>876529842098</b></td>
+                        </tr>
+                        <tr class="dates-odd1">
+                            <td>IFSC Code</td>
+                            <td><b>BDJSJ7328892332</b></td>
+                        </tr>
+                        <tr class="dates-eve1">
+                            <td>Bank Name</td>
+                            <td><b>ICICI Bank</b></td>
+                        </tr>
+                        <tr class="dates-odd1">
+                            <td>Address</td>
+                            <td><b>adkjasfkdjflkjasas</b></td>
+                        </tr>
+                        <tr class="dates-eve1">
+                            <td>Bank State</td>
+                            <td><b>Karnataka</b></td>
+                        </tr>
+                        <tr class="dates-odd1">
+                            <td>Bank CIty</td>
+                            <td><b>Manipal</b></td>
+                        </tr>
+                        <tr class="dates-eve1">
+                            <td>Country</td>
+                            <td><b>India</b></td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+     </div>
+        
+
+        
+        <!-- <section class="reg-form"> -->
+            <section>
+                <div style="width:90%;margin-bottom: 3%;" class="reg-form" >
+                    <p><b>Please follow given instructions for registration</b></p>
+                    <ol style="padding-left:6%;text-align: left;">
+                        <li>Payment of fee must be done through online mode </li>
+                        <li>At least one author of each paper must complete the registration process at non-student rate, in order to ensure inclusion of the paper in the conference proceedings.</li>
+                        <li>Students must include a letter from the Head of the Institute/ Dean/ Department authenticating their full-time student status.</li>
+                        <li>In case of multiple papers by an author, each additional paper would be subjected to additional registration charge at reduced rate.</li>
+                        <li>In case of over length papers (exceeding the 8 page limit), each additional page (maximum of 2 pages for a paper) would be subjected to additional page charge.</li>
+                    </ol>
+                    <br><br>
+             </div>
+            </section>
     <section class="footer">
         <h4>About Us</h4>
             <p class="short-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
