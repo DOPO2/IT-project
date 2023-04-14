@@ -626,6 +626,7 @@ padding: 5px;
 }
 .myTable1{ 
     width: 90%;
+    height:90%;
     text-align: left;
     border:solid black 1px;
     /* border-radius: 20px; */
