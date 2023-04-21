@@ -615,6 +615,15 @@ width: 33%;
 #regcontainer li{
     padding: 5px;
 }
+#datecontainer{
+    width:90%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;;
+}
+#datecontainer li{
+    padding: 5px;
+}
 #sponsorcontainer{
     width:90%;
     padding-bottom: 5px;
