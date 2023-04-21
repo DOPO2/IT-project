@@ -581,6 +581,16 @@ text-align: center;
   text-decoration: none;
   padding-right: 30px
 }
+blink {
+                animation: blinker 1.5s linear infinite;
+                color:white;
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
 
 /* REGISTRATION */
 
@@ -772,3 +782,4 @@ grid-gap: auto;
     margin: 15px;
     position: relative;
 }
+
