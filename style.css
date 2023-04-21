@@ -282,6 +282,7 @@ h3{
     height: 17vh;
     align-items: center;
     margin: 20px;
+    overflow: scroll;
 }
 .spons-img img{
     margin-left: auto;
