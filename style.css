@@ -739,7 +739,8 @@ padding: 5px;
 
 .committee-div{
     flex-basis: 100%;
-    background: #fff3f3;
+    background: rgba(220, 13, 13, 0.1);
+    border: solid grey 1px;
     width: 80%;
     margin: auto;
     margin-bottom: 5%;
