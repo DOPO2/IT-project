@@ -194,37 +194,26 @@ p{
 .myTable { 
     width: 100%;
     text-align: left;
-    background-color: lemonchiffon;
+    background-color:white;
     border-collapse: collapse; 
     }
-.myTable th,
-  .myTabledates th { 
+  .myTable th { 
     background-color: rgb(32, 116, 218);
     color: white; 
     text-align: center;
     }
   .myTable td, 
-  .myTable th,
-  .myTabledates td, 
-  .myTabledates th { 
+  .myTable th { 
     padding: 10px;
     border: 1px solid rgb(32, 116, 218); 
     }
 .dates-odd{
     color: rgb(33, 32, 32);
-    background-color: rgb(255, 217, 194);
+    background-color: white;
 }
 .dates-eve{
     color: rgb(33, 32, 32);
-    background-color: rgb(255, 240, 226);
-}
-.myTabledates { 
-    width: 50%;
-    text-align: left;
-    background-color: lemonchiffon;
-    border-collapse: collapse; 
-    margin-left: auto;
-    margin-right: auto;
+    background-color: white;
 }
 .val-col{
     flex-basis: 100%;
@@ -282,7 +271,6 @@ h3{
     height: 17vh;
     align-items: center;
     margin: 20px;
-    overflow: scroll;
 }
 .spons-img img{
     margin-left: auto;
@@ -581,16 +569,6 @@ text-align: center;
   text-decoration: none;
   padding-right: 30px
 }
-blink {
-                animation: blinker 1.5s linear infinite;
-                color:white;
-                font-family: sans-serif;
-            }
-            @keyframes blinker {
-                50% {
-                    opacity: 0;
-                }
-            }
 
 /* REGISTRATION */
 
@@ -782,4 +760,3 @@ grid-gap: auto;
     margin: 15px;
     position: relative;
 }
-
