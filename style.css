@@ -643,7 +643,7 @@ padding: 5px;
     }
    
   .myTable1 td, tr th{ 
-    padding: 10px;
+    padding: 20px;
     border: 1px solid rgb(114, 116, 119); 
     }
 .dates-odd1{
@@ -781,4 +781,5 @@ grid-gap: auto;
     margin: 15px;
     position: relative;
 }
+
 
