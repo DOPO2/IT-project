@@ -615,6 +615,9 @@ width: 33%;
 #regcontainer li{
     padding: 5px;
 }
+#regnote li{
+padding:5px;
+}
 #datecontainer{
     width:90%;
     padding-bottom: 20px;
@@ -751,11 +754,6 @@ display: grid;
 grid-template-columns: 25% 25% 25% 25%;
 grid-gap: auto;
 }
-.venue-members{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-gap: auto;
-}
 .place-div{
     flex-basis: 100%;
     background:#fff3f3;
@@ -786,3 +784,5 @@ grid-gap: auto;
     margin: 15px;
     position: relative;
 }
+
+
