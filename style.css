@@ -197,13 +197,16 @@ p{
     background-color: lemonchiffon;
     border-collapse: collapse; 
     }
-  .myTable th { 
+.myTable th,
+  .myTabledates th { 
     background-color: rgb(32, 116, 218);
     color: white; 
     text-align: center;
     }
   .myTable td, 
-  .myTable th { 
+  .myTable th,
+  .myTabledates td, 
+  .myTabledates th { 
     padding: 10px;
     border: 1px solid rgb(32, 116, 218); 
     }
@@ -214,6 +217,14 @@ p{
 .dates-eve{
     color: rgb(33, 32, 32);
     background-color: rgb(255, 240, 226);
+}
+.myTabledates { 
+    width: 50%;
+    text-align: left;
+    background-color: lemonchiffon;
+    border-collapse: collapse; 
+    margin-left: auto;
+    margin-right: auto;
 }
 .val-col{
     flex-basis: 100%;
