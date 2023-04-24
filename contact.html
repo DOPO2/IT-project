@@ -119,7 +119,7 @@
                     <option value="OC">Organising Committee</option>
                 </select>
                 <textarea rows="8" name="message" placeholder="Message" required></textarea><br>
-                <button type="submit" class="hero-btn red-btn">Send Message</button>
+                <button onclick="alertfunction()" type="submit" class="hero-btn red-btn">Send Message</button>
             </form>
         </div>
         </div>
@@ -142,6 +142,11 @@
     var navLinks=document.getElementById("navLinks");
 var navdropdown=document.getElementById("dropdown");
 var tabslider=document.getElementById("tabslide");
+    
+    function alertfunction(){
+    alert("Message sent successfully!");
+}
+    
     function showMenu(){
         navLinks.style.right="0";
     }
