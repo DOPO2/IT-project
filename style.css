@@ -427,6 +427,9 @@ h3{
 .contact-col select{
 height: 45px;
 }
+textarea{
+    font-size: 16px;
+}
 .submissions-content{
     margin-top: 5%;
     margin-bottom: 5%;
