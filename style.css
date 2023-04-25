@@ -398,7 +398,7 @@ h3{
     align-items: center;
     margin-bottom: 40px;
 }
-.contac-col textarea,textarea::placeholder,select,input,input::-webkit-input-placeholder{
+.contact-col textarea,textarea::placeholder,select,input,input::-webkit-input-placeholder{
     font-size: 16px;
 }
 .contact-col div .fa{
